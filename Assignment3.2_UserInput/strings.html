@@ -1,0 +1,53 @@
+<!-- Seth VanMeter -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enter JavaScript Link -->
+    <script src = "script.js"></script>
+    <title>What's the Secret Code?</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+    <Header>
+        <h1>Seth's Projects!</h1>
+    </Header>
+    <nav id="navbar">
+        <h2><a href="../Assignment_5.1 Final_project/index.html">Home/Table</a><br></h2>
+        <h2><a href="../Assignment 4.1_Event Driven Programming/index.html">Meme/Index</a><br></h2>
+        <h2><a href="../Assignment3.1_PalindromeChecker/strings.html">Palindrome</a><br></h2>
+        <h2><a href="../Assignment3.2_UserInput/strings.html">User Input</a><br></h2>
+    </nav>
+    <div id="soundBtn">
+        <!-- add id to create button toggle -->
+        <button id = "startSound" onclick = "startSound();">Start Sound</button>
+        <button id = "endSound" onclick="endSound();">End Sound</button>
+    </div>
+    <!--give the form ID-->
+    <!-- if "return false" is missing the information will stay on the screen -->
+    <form id="nameInp" onsubmit = "return false">
+        <!--input type will give the input a value for JavaScript to grab-->
+        <!-- Add textboxes for user's first and lastname -->
+        First Name: <input type = "text" id = "firstName">
+        <br>
+        Last Name: <input type = "text" id = "lastName">
+        <br>
+        <!-- add text box to enter ZipCode -->
+        Zip Code: <input type = "text" id = "zipCode">
+        <br>
+        <!-- Create an input button -->
+        <input type = "Submit" onclick = "check();"/>
+    </form>
+    <footer>
+        Seth VanMeter<br>
+        University of Advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056
+    </footer>
+
+    <!-- this will display the answer -->
+</body>
+</html>

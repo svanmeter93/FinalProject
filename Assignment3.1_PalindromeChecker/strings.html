@@ -1,0 +1,44 @@
+<!-- Seth VanMeter -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enter JavaScript Link -->
+    <script src = "string.js"></script>
+    <title>Palindrome Checker</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+    <Header>
+        <h1>Seth's Projects!</h1>
+    </Header>
+    <nav id="navbar">
+        <h2><a href="./index.html">Home/Table</a><br></h2>
+        <h2><a href="../Assignment 4.1_Event Driven Programming/index.html">Meme/Index</a><br></h2>
+        <h2><a href="../Assignment3.1_PalindromeChecker/strings.html">Palindrome</a><br></h2>
+        <h2><a href="../Assignment3.2_UserInput/strings.html">User Input</a><br></h2>
+    </nav>
+    <!--give the form ID-->
+    <!-- if "return false" is missing the information will stay on the screen -->
+    <form id="workChk" onsubmit = "return false">
+        <!--input type will give the input a value for JavaScript to grab-->
+        Enter Word: <input type = "text" id = "userWrd">
+        <br>
+        <!-- Create an input button -->
+        <input type = "Submit" onclick = "check();"/>
+    </form>
+    <!-- this will display the answer -->
+    <div id="answer1"></div>
+    <div id="backWrd"></div>
+    <div id="result"></div>
+    <footer>
+        Seth VanMeter<br>
+        University of Advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056
+    </footer>
+</body>
+</html>

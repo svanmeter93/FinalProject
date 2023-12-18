@@ -1,0 +1,13 @@
+body 
+{
+    background-color: rgb(28, 43, 6);
+    color: aliceblue;
+    font-size:5ch;
+    margin: 3cap;
+    line-height: 3ch;
+}
+
+#workChk
+{
+height: fit-content;
+}

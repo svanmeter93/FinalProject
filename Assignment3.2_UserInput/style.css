@@ -1,0 +1,45 @@
+body
+{
+background-color: rgb(98, 87, 107);
+}
+
+form 
+{
+color: beige;
+padding-left: 10cap;
+margin-top: 5cap;
+}
+
+#firstName, #lastName, #zipCode
+{
+    margin-top: 5cap;
+}
+
+input
+{
+    margin-top: 3cap;
+}
+
+h1
+{
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.10cap;
+}
+
+#soundBtn
+{
+padding-left: 75%;
+}
+
+#startSound
+{
+    background-color: green;
+    border-radius: 1cap;
+}
+
+#endSound
+{
+    background-color: red;
+    border-radius: 1cap;
+}
